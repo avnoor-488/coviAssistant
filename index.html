@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
     <!-- Style Sheet -->
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./assets/landingPage.css">
 </head>
 
 <body>
@@ -33,59 +33,64 @@
                         <a class="nav-link" href="#">Create Account</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" target="_blank" href="./login/login.html">Login</a>
+                        <a class="nav-link" href="./login/login.html">Login</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <section class="home">
+    <section class="main">
+        <!-- Cards -->
         <div class="container">
-            <div class="content-box">
-                <h1>Instructions</h1>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae autem ea culpa animi nemo enim
-                    consectetur quaerat eius ab, excepturi magnam at soluta vitae dolore sequi quos minima! Labore,
-                    dolore?
-                    Sequi temporibus perferendis nihil tempore cupiditate quibusdam fugit, praesentium enim illum eos
-                    animi accusantium vero ut explicabo tempora minus optio est in voluptatem quam nulla blanditiis quis
-                    sunt atque. Consectetur.</p>
-            </div>
-            <div class="search">
-
-                <div class="dropdown">
-                    <div class="btn-group">
-                        <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Select City
-                        </button>
-                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                            <li><a class="dropdown-item" href="#">Patiala</a></li>
-                            <li><a class="dropdown-item" href="#">Ambala</a></li>
-                            <li><a class="dropdown-item" href="#">Rajpura</a></li>
-                        </ul>
-                    </div>
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                    <a href="./bedCount/bedCount.html">
+                        <div class="card">
+                            <img src="./assets/bed-card.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Bed Count</h5>
+                            </div>
+                        </div>
+                    </a>
                 </div>
-            </div>
-    </section>
-    <section class="results">
-        <div class="container">
-            <div class="row">
-                <div class="info-box">
-                    <div class="hospital-info">
-                        <h1>Vardhman Mahavir Health Care centre</h1>
-                        <p class="address">147002, Urban Estate Phase II, Urban Estate, Patiala, Punjab 147002</p>
-                        <p class="number">0175 505 1234</p>
-
-                    </div>
-                    <div class="bed-box">
-                        <p>Beds Available: 09</p>
-                        <p>ICU beds Available: 05</p>
-                        <p>ventilator beds Available: 02</p>
-                    </div>
+                <div class="col">
+                    <a href="#">
+                        <div class="card">
+                            <img src="./assets/ambulance-card.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Ambulance Enquiry</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="#">
+                        <div class="card">
+                            <img src="./assets/doctor-card.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Consult a Doctor</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="#">
+                        <div class="card">
+                            <img src="./assets/home-card.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Home Quaratine Guide</h5>
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
     </section>
+
+
+
+
+
     <!-- JS file -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
         integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"

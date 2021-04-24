@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: url("./Image/bg-home.png");
+  background-image: url("./bg-home.png");
   background-size: cover;
   background-repeat: no-repeat;
   font-family: "Open Sans", sans-serif;

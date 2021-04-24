@@ -13,10 +13,6 @@ p {
   font-size: 1.2rem;
 }
 
-.navbar {
-  margin-top: 1%;
-  margin-bottom:3%;
-}
 .nav-item a {
   font-family: "Open Sans", sans-serif;
   margin-right: 20px;
@@ -28,7 +24,10 @@ p {
 .nav-item a:hover {
   color: #13bfb1;
 }
-
+.navbar-brand img {
+  width: 8%;
+  margin-left: 2%;
+}
 .main {
   margin-top: 1%;
 }

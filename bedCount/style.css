@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: url("./bg-home.png");
+  background-image: url("../assets/bg-home.png");
   background-size: cover;
   background-repeat: no-repeat;
   font-family: "Open Sans", sans-serif;
@@ -22,8 +22,9 @@ p {
   font-size: 1.2rem;
 }
 
-.navbar {
-  margin-top: 1%;
+.navbar-brand img {
+  width: 8%;
+  margin-left: 2%;
 }
 .nav-item a {
   font-family: "Open Sans", sans-serif;
